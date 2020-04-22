@@ -1,10 +1,10 @@
 int main(){
 	#ifdef MACRO
 		// uma fraqueza
-		char str1[] = "uma parte da string," + "outra parte.";
+		if ("abc" == "Hello World") {} //[-Wstring-compare] 
 	#else
 		// mesma fraqueza	
-		char str1[] = "uma parte da string," + "outra parte.";
+		if ("abc" == "Hello World") {} //[-Wstring-compare] 
 	#endif
 	return 0;
 }
