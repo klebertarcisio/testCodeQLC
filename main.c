@@ -6,5 +6,6 @@ int main(){
 		// mesma fraqueza	
 		if ("abc" == "Hello World") {}
 	#endif
+		if ("abc" == "Hello World") {}
 	return 0;
 }
