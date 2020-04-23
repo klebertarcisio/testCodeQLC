@@ -19,5 +19,6 @@ int main(){
 		if ("abc" == "Hello World") {}
 	#endif
 	malloc_with_free_test();	
+	if ("abc" == "Hello World") {}
 	return 0;
 }
